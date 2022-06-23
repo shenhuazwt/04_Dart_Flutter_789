@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.16.1 <3.0.0"
+  sdk: ">=2.16.1 <3.1.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -27,6 +27,8 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  flukit: ^3.0.1
+  english_words: ^4.0.0
   flutter:
     sdk: flutter
 
@@ -51,6 +53,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+
+  assets:
+    - images/壁纸.jpg
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
